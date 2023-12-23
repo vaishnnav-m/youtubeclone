@@ -1,0 +1,10 @@
+.main-body{
+  display: flex;
+}
+
+.container{
+  margin-top:  56px; ;
+}
+body{
+  margin: 0;
+}
