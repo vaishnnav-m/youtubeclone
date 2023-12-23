@@ -1,0 +1,187 @@
+.header{
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+}
+.left{
+  width: 176px;
+  margin-right: 85px;
+}
+.menudiv{
+  height: 56px;
+  width:70px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+.menu{
+  padding: 0;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  background:none ;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.menu:hover{
+  background-color:rgba(0,0,0,0.1);
+}
+.menu:active{
+  background-color:rgba(0,0,0,0.15);
+}
+.logo-div{
+  display: flex;
+  width:106px;
+  height: 56px;
+  float: left;
+ align-items: center;
+}
+.yt-logo{
+  height: 20px;
+  cursor: pointer;
+}
+.middle{
+  flex: 1;
+  display: flex;
+  max-width: 660px;
+  
+}
+.search-div{
+  flex:1;
+  display: flex;
+  align-items: center;
+}
+.search{
+  width:100%;
+  height:35px;
+  border-bottom-left-radius:18px;
+  border-top-left-radius:18px ;
+  border: solid;
+  border-color:rgba(0,0,0,0.15);
+  border-width: 1px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+.search:focus{
+  outline: none;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(41,118,211);
+  box-shadow:0px 2px 0px  rgba(0,0,0,0.15) inset;
+}
+.search-button-div{
+  width:64px;
+  display: flex;
+  align-items: center;
+}
+.search-button{
+  width: 100%;
+  height: 38px;
+  border-bottom-right-radius:18px;
+  border-top-right-radius:18px ;
+  border: solid;
+  border-color:rgba(0,0,0,0.15);
+  border-width: 1px;
+  background-color:#f8f8f8;
+  font-size: 23px;
+  cursor: pointer;
+}
+.search-button:hover{
+  background-color:#efeeee ;
+  box-shadow:0px 1px 0px  rgba(0,0,0,0.15);
+}
+.mic-div{
+  width: 50px;
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+}
+.mic{
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color:#f4f4f4;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.mic:hover{
+  background-color: #c1bfbf;
+}
+.mic:active{
+  background-color: #c1bfbf;
+}
+.right{
+ min-width:260px;
+ display: flex;
+justify-content:flex-end;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  margin-right: 38px;
+}
+.create{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background:none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.create:hover{
+  background-color: #efeeee;
+}
+.create:active{
+  background-color: #d8d8d8;
+}
+.createimg{
+  width: 24px;
+  margin-left: 3px;
+}
+.notification-div{
+  margin-left:10px;
+}
+.notification{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background:none;
+  border: none;
+  font-size: 20px; 
+  cursor: pointer;
+}
+.notification:hover{
+  background-color: #efeeee;
+}
+.notification:active{
+  background-color: #d8d8d8;
+}
+.profile-div{
+  width: 40px;
+  margin-left:22px;
+  display: flex;
+  align-items: center;
+}
+.profile{
+  width: 32px;
+  height: 32px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.profile:active{
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(41,118,211);
+}
