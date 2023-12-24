@@ -1,9 +1,10 @@
+
 .left-section{
-  height: calc(100%-56px);
+  height: calc(100%);
   width: 240px;
   padding-left: 12px;
   padding-bottom: 10px;
-  position: fixed;
+  position: absolute;
   left: 0;
   top:56px;
   bottom: 0;
@@ -424,4 +425,224 @@
 }
 .show-more:active{
   background-color: #c5c4c4; 
+}
+
+.trending{
+  width: 204px;
+  margin-right: 14px;
+  padding-top: 9px;
+  padding-right: 70px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  background: none;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.trending-word{
+  font-family: roboto,arial;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 21px;
+}
+.trending:hover{
+  background-color: #f2f0f0; 
+}
+.trending:focus{
+  background-color: #f2f0f0;
+}
+.trending:active{
+  background-color: #c5c4c4; 
+}
+
+.shopping{
+  width: 204px;
+  margin-right: 14px;
+  padding-top: 9px;
+  padding-right: 60px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  background: none;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.shopping-word{
+  font-family: roboto,arial;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 21px;
+}
+.shopping:hover{
+  background-color: #f2f0f0; 
+}
+.shopping:focus{
+  background-color: #f2f0f0;
+}
+.shopping:active{
+  background-color: #c5c4c4; 
+}
+
+.music{
+  width: 204px;
+  margin-right: 14px;
+  padding-top: 9px;
+  padding-right: 85px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  background: none;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.music-word{
+  font-family: roboto,arial;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 21px;
+}
+.music:hover{
+  background-color: #f2f0f0; 
+}
+.music:focus{
+  background-color: #f2f0f0;
+}
+.music:active{
+  background-color: #c5c4c4; 
+}
+
+.report{
+  width: 204px;
+  margin-right: 14px;
+  padding-top: 9px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  background: none;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.report-word{
+  font-family: roboto,arial;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 21px;
+}
+.report:hover{
+  background-color: #f2f0f0; 
+}
+.report:focus{
+  background-color: #f2f0f0;
+}
+.report:active{
+  background-color: #c5c4c4; 
+}
+
+.help{
+  width: 204px;
+  margin-right: 14px;
+  padding-top: 9px;
+  padding-right: 110px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  background: none;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.help-word{
+  font-family: roboto,arial;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 21px;
+}
+.help:hover{
+  background-color: #f2f0f0; 
+}
+.help:focus{
+  background-color: #f2f0f0;
+}
+.help:active{
+  background-color: #c5c4c4; 
+}
+
+.send{
+  width: 204px;
+  margin-right: 14px;
+  padding-top: 9px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  background: none;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.send-word{
+  font-family: roboto,arial;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 21px;
+}
+.send:hover{
+  background-color: #f2f0f0; 
+}
+.send:focus{
+  background-color: #f2f0f0;
+}
+.send:active{
+  background-color: #c5c4c4; 
+}
+
+.about{
+  width: 204px;
+padding-left: 10px;
+}
+.about-word{
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  cursor: pointer;
+  color: rgb(87, 78, 78);
+}
+
+.terms{
+  width: 204px;
+padding-left: 10px;
+margin-top: 10px;
+}
+.terms-word{
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  cursor: pointer;
+  color: rgb(87, 78, 78);
+}
+
+.google{
+  width: 204px;
+padding-left: 10px;
+margin-top: 10px;
+}
+.google-word{
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  color: rgb(135, 126, 126);
 }
