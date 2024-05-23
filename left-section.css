@@ -1,5 +1,4 @@
 .left-section{
-  height: 100%;
   width:240px;
   padding-top: 10px;
   padding-left: 12px;
@@ -12,7 +11,7 @@
 
   &::-webkit-scrollbar {
     background-color: transparent;
-    width: 0px;
+    width: 1px;
     
   }
 }
@@ -20,23 +19,15 @@
   &::-webkit-scrollbar {
     width: 8px;
     
+    
   }
   &::-webkit-scrollbar-thumb {
     background-color: rgba(0,0,0,.2);
-    border-radius: 4px;
     
   }
+  
 }
-@media (hover: none) {
-  .left-section::-webkit-scrollbar {
-    width: 8px;
-  }
 
-  .left-section::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0,0.2);
-    border-radius: 4px; 
-  }
-}
 .left-icons{
   width: 204px;
   display: flex;
@@ -51,7 +42,6 @@
   border: none;
   border-radius: 13px;
   cursor: pointer;
-  transition: background-color 0.5s;
 }
 .left-icons:hover{
   background-color: #f2f0f0; 
@@ -59,8 +49,8 @@
 .left-icons:focus{
   background-color: #f2f0f0; 
 }
-.left-icons:active{
-  background-color: #c5c4c4; 
+.left-icons:active{  background-color: #c5c4c4; 
+
 }
 .left-icons-word{
   font-family: roboto,arial;
@@ -79,9 +69,18 @@
   font-weight: 500;
 }
 .active:hover{
-  background-color: #c5c4c4;
+  background-color: #e5e5e5;
 }
-
+.no-decoration{
+  text-decoration: none;
+  color: #000;
+}
+.yt-channel{
+  color: #606060;
+}
+.view-time{
+  color: #606060;
+}
 .line-div{
   width: 225px;
 }
@@ -112,167 +111,6 @@
   background-color: #c5c4c4; 
 }
 
-.your-channel{
-  width: 204px;
-  margin-right: 14px;
-  padding-top: 9px;
-  padding-right: 52px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  font-size: 18px;
-  background: none;
-  border: none;
-  border-radius: 13px;
-  cursor: pointer;
-  transition: background-color 0.5s;
-}
-.channel-word{
-  font-family: roboto,arial;
-  font-weight: 500;
-  font-size: 15px;
-  margin-left: 21px;
-}
-.your-channel:hover{
-  background-color: #f2f0f0; 
-}
-.your-channel:focus{
-  background-color: #f2f0f0;
-}
-.your-channel:active{
-  background-color: #c5c4c4; 
-}
-
-.history-div{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.history{
-  width: 204px;
-  margin-right: 14px;
-  padding-top: 9px;
-  padding-right:92px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  font-size: 18px;
-  background: none;
-  border: none;
-  border-radius: 13px;
-  cursor: pointer;
-  transition: background-color 0.5s;
-}
-.history-word{
-  font-family: roboto,arial;
-  font-weight: 500;
-  font-size: 15px;
-  margin-left: 22px;
-}
-.history:hover{
-  background-color: #f2f0f0; 
-}
-.history:focus{
-  background-color: #f2f0f0;
-}
-.history:active{
-  background-color: #c5c4c4; 
-}
-
-.your-videos{
-  width: 204px;
-  margin-right: 14px;
-  padding-top: 9px;
-  padding-right: 61px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  font-size: 18px;
-  background: none;
-  border: none;
-  border-radius: 13px;
-  cursor: pointer;
-  transition: background-color 0.5s;
-}
-.your-videos-word{
-  font-family: roboto,arial;
-  font-weight: 500;
-  font-size: 15px;
-  margin-left: 19px;
-}
-.your-videos:hover{
-  background-color: #f2f0f0; 
-}
-.your-videos:focus{
-  background-color: #f2f0f0;
-}
-.your-videos:active{
-  background-color: #c5c4c4; 
-}
-
-
-.watch-later{
-  width: 204px;
-  margin-right: 14px;
-  padding-top: 9px;
-  padding-left: 10px;
-  padding-right: 62px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  font-size: 18px;
-  background: none;
-  border: none;
-  border-radius: 13px;
-  cursor: pointer;
-  transition: background-color 0.5s;
-}
-.watch-later-word{
-  font-family: roboto,arial;
-  font-weight: 500;
-  font-size: 15px;
-  margin-left: 21px;
-}
-.watch-later:hover{
-  background-color: #f2f0f0; 
-}
-.watch-later:focus{
-  background-color: #f2f0f0;
-}
-.watch-later:active{
-  background-color: #c5c4c4; 
-}
-
-
-.liked-videos{
-  width: 204px;
-  margin-right: 14px;
-  padding-top: 9px;
-  padding-right: 52px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  font-size: 18px;
-  background: none;
-  border: none;
-  border-radius: 13px;
-  cursor: pointer;
-  transition: background-color 0.5s;
-}
-.liked-videos-word{
-  font-family: roboto,arial;
-  font-weight: 500;
-  font-size: 15px;
-  margin-left: 21px;
-}
-.liked-videos:hover{
-  background-color: #f2f0f0; 
-}
-.liked-videos:focus{
-  background-color: #f2f0f0;
-}
-.liked-videos:active{
-  background-color: #c5c4c4; 
-}
 
 .subscriptions,.explore{
   font-family: roboto,arial;
@@ -284,161 +122,11 @@
 }
 
 
-.channels{
-  width: 204px;
-  padding-bottom: 4px;
-  padding-top: 7px;
-  background: none;
-  border: none;
-  border-radius: 13px;
-  transition: background-color 0.5s;
-  display: flex;
-  align-items: center;
-}
-.channel-logo-div{
-  width: 25px;
-  padding-left: 4px;
-}
 .logo{
   border-radius: 50%;
   width: 100%;
 }
-.channels:hover{
-  background-color: #f2f0f0; 
-}
-.channels:focus{
-  background-color: #f2f0f0;
-}
-.channels:active{
-  background-color: #c5c4c4; 
-}
-.channel-name{
-  font-family: roboto,arial;
-  font-weight: 500;
-  font-size: 15px;
-  margin-left: 25px;
-  text-wrap: nowrap;
-}
-.show-more{
-  width: 204px;
-  margin-right: 14px;
-  padding-top: 9px;
-  padding-right: 52px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  font-size: 18px;
-  background: none;
-  border: none;
-  border-radius: 13px;
-  cursor: pointer;
-  transition: background-color 0.5s;
-}
-.show-more-word{
-  font-family: roboto,arial;
-  font-weight: 500;
-  font-size: 15px;
-  margin-left: 21px;
-}
-.show-more:hover{
-  background-color: #f2f0f0; 
-}
-.show-more:focus{
-  background-color: #f2f0f0;
-}
-.show-more:active{
-  background-color: #c5c4c4; 
-}
 
-.trending{
-  width: 204px;
-  margin-right: 14px;
-  padding-top: 9px;
-  padding-right: 70px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  font-size: 18px;
-  background: none;
-  border: none;
-  border-radius: 13px;
-  cursor: pointer;
-  transition: background-color 0.5s;
-}
-.trending-word{
-  font-family: roboto,arial;
-  font-weight: 500;
-  font-size: 15px;
-  margin-left: 21px;
-}
-.trending:hover{
-  background-color: #f2f0f0; 
-}
-.trending:focus{
-  background-color: #f2f0f0;
-}
-.trending:active{
-  background-color: #c5c4c4; 
-}
-
-.shopping{
-  width: 204px;
-  margin-right: 14px;
-  padding-top: 9px;
-  padding-right: 60px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  font-size: 18px;
-  background: none;
-  border: none;
-  border-radius: 13px;
-  cursor: pointer;
-  transition: background-color 0.5s;
-}
-.shopping-word{
-  font-family: roboto,arial;
-  font-weight: 500;
-  font-size: 15px;
-  margin-left: 21px;
-}
-.shopping:hover{
-  background-color: #f2f0f0; 
-}
-.shopping:focus{
-  background-color: #f2f0f0;
-}
-.shopping:active{
-  background-color: #c5c4c4; 
-}
-
-.music{
-  width: 204px;
-  margin-right: 14px;
-  padding-top: 9px;
-  padding-right: 85px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  font-size: 18px;
-  background: none;
-  border: none;
-  border-radius: 13px;
-  cursor: pointer;
-  transition: background-color 0.5s;
-}
-.music-word{
-  font-family: roboto,arial;
-  font-weight: 500;
-  font-size: 15px;
-  margin-left: 21px;
-}
-.music:hover{
-  background-color: #f2f0f0; 
-}
-.music:focus{
-  background-color: #f2f0f0;
-}
-.music:active{
-  background-color: #c5c4c4; 
-}
 
 .report{
   width: 204px;
@@ -537,7 +225,7 @@ padding-left: 10px;
 .about-word{
   font-family: roboto;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 15px;
   cursor: pointer;
   color: rgb(87, 78, 78);
@@ -551,7 +239,7 @@ margin-top: 10px;
 .terms-word{
   font-family: roboto;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 15px;
   cursor: pointer;
   color: rgb(87, 78, 78);
