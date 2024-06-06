@@ -1,0 +1,23 @@
+footer{
+  display: none !important;
+  height: 50px !important;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+}
+.icons-ftr svg{
+  height: 24px !important;
+  width: 24px !important;
+}
+.icons-ftr span{
+  font-size: 12px;
+  font-family: Roboto,Arial, sans-serif;
+  line-height: 16px;
+}
+@media (max-width:661px){
+  footer{
+    display: flex !important;
+  }
+
+}
